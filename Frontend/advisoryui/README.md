@@ -1,20 +1,39 @@
-# Smart Crop Advisory System
+# Smart Agriculture Support System
 
 ## Project Overview
 
-The Smart Crop Advisory System is a web-based application developed to help small and marginal farmers select suitable crops based on soil conditions, weather data, and seasonal factors. The system uses machine learning and real-time information to provide accurate and practical crop recommendations.
+The Smart Agriculture Support System is a web-based platform designed to support farmers by providing intelligent solutions for agriculture-related challenges. The system focuses on crop advisory, crop disease detection, and animal health checking using machine learning and real-time data.
 
-The main objective of this project is to simplify the decision-making process for farmers and reduce crop-related losses by using modern technology.
+The goal of this project is to improve agricultural productivity and reduce losses by offering timely, data-driven recommendations through a simple and user-friendly application.
 
 ---
 
 ## Objectives
 
-- To assist farmers in choosing appropriate crops.
-- To reduce crop failure and financial loss.
-- To use real-time weather and soil information.
-- To provide a simple and easy-to-use platform.
-- To improve agricultural productivity using technology.
+- To help farmers select suitable crops based on soil, weather, and season.
+- To detect crop diseases using machine learning techniques.
+- To assist in basic animal health checking using data-driven analysis.
+- To reduce dependency on manual expert consultation.
+- To provide a single platform for agriculture-related support.
+
+---
+
+## Modules Included
+
+### 1. Crop Advisory System
+- Recommends suitable crops based on soil nutrients, weather conditions, and season.
+- Uses machine learning for prediction.
+- Automatically fetches weather and soil data.
+
+### 2. Crop Disease Detection
+- Identifies crop diseases using machine learning models.
+- Helps farmers take early preventive measures.
+- Can be extended to image-based disease detection.
+
+### 3. Animal Health Checking
+- Assists in identifying possible health issues in animals using input parameters.
+- Provides basic health-related insights.
+- Designed to support farmers in livestock management.
 
 ---
 
@@ -29,31 +48,32 @@ Backend:
 - Flask
 
 Machine Learning:
-- Scikit-learn (Random Forest Algorithm)
+- Scikit-learn
+- Future scope for deep learning models
 
 API:
 - OpenWeather API
 
 Data Storage:
-- CSV files for soil and crop data
+- CSV datasets for crops, soil, diseases, and animal health data
 
 ---
 
 ## System Architecture
 
-The system follows a client-server architecture.
+The application follows a modular client-server architecture.
 
-User -> React Frontend -> Flask Backend -> Machine Learning Model -> Result -> User Interface
+User -> React Frontend -> Flask Backend -> Machine Learning Models -> Results -> User Interface
 
 ---
 
-## Features
+## Key Features
 
 - Machine learning based crop recommendation.
-- Automatic weather data collection.
-- District-wise soil data usage.
-- Season-based prediction.
-- User-friendly interface.
+- Crop disease identification support.
+- Animal health checking module.
+- Automatic weather and soil data integration.
+- Simple and farmer-friendly interface.
 
 ---
 
