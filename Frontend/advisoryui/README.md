@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Smart Agriculture Support System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The Smart Agriculture Support System is a web-based platform designed to support farmers by providing intelligent solutions for agriculture-related challenges. The system focuses on crop advisory, crop disease detection, and animal health checking using machine learning and real-time data.
 
-In the project directory, you can run:
+The goal of this project is to improve agricultural productivity and reduce losses by offering timely, data-driven recommendations through a simple and user-friendly application.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- To help farmers select suitable crops based on soil, weather, and season.
+- To detect crop diseases using machine learning techniques.
+- To assist in basic animal health checking using data-driven analysis.
+- To reduce dependency on manual expert consultation.
+- To provide a single platform for agriculture-related support.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Modules Included
 
-### `npm run build`
+### 1. Crop Advisory System
+- Recommends suitable crops based on soil nutrients, weather conditions, and season.
+- Uses machine learning for prediction.
+- Automatically fetches weather and soil data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Crop Disease Detection
+- Identifies crop diseases using machine learning models.
+- Helps farmers take early preventive measures.
+- Can be extended to image-based disease detection.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Animal Health Checking
+- Assists in identifying possible health issues in animals using input parameters.
+- Provides basic health-related insights.
+- Designed to support farmers in livestock management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Frontend:
+- React.js
+- Tailwind CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Backend:
+- Python
+- Flask
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Machine Learning:
+- Scikit-learn
+- Future scope for deep learning models
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+API:
+- OpenWeather API
 
-## Learn More
+Data Storage:
+- CSV datasets for crops, soil, diseases, and animal health data
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## System Architecture
 
-### Code Splitting
+The application follows a modular client-server architecture.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+User -> React Frontend -> Flask Backend -> Machine Learning Models -> Results -> User Interface
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Key Features
 
-### Making a Progressive Web App
+- Machine learning based crop recommendation.
+- Crop disease identification support.
+- Animal health checking module.
+- Automatic weather and soil data integration.
+- Simple and farmer-friendly interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
